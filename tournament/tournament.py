@@ -124,7 +124,7 @@ def swissPairings():
     db = connect()
     cursor = db.cursor()
     # Get a list of players sorted by wins.
-    cursor.execute("SELECT * FROM standings ORDER BY wins")
+    cursor.execute("SELECT * FROM standings")
     playerList = cursor.fetchall()
     matches = []
     # Now that we have a sorted list, assign each player to their neighbor

@@ -30,4 +30,5 @@ CREATE VIEW standings AS
 		(SELECT COUNT(*) FROM matches WHERE winner = id) AS wins,
 		(SELECT COUNT(*) FROM matches WHERE winner = id OR loser = id) AS matches
 	FROM
-		players;
+		players
+	ORDER BY wins DESC;

@@ -6,3 +6,4 @@ Installation Instructions
 3. Run "vagrant ssh"
 4. Run "psql -c '\i /vagrant/tournament/tournament.sql'"
 5. Run "python /vagrant/tournament/tournament_test.py
+You'll know it worked if the scripts concludes with "Success! All tests pass!"
