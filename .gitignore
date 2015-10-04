@@ -1,3 +1,4 @@
 .vagrant
 tournament/__pycache__
 *.pyc
+*.pyc
